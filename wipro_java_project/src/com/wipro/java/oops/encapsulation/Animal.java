@@ -34,7 +34,7 @@ public class Animal {
 	public void setTeeth(int teeth) {
 		if(teeth<20) {
 
-			  System.out.println("Its a baby with less than 20 teeth.");
+			  System.out.println("It is a baby with 20 teeth.");
 			}
 			else {
 				this.teeth = teeth;	
@@ -44,14 +44,14 @@ public class Animal {
 	
 	public static void main(String[] args) {
 	
-		Animal animalA1 = new Animal ("Horse",24);
+		Animal animalA1 = new Animal ("Horse",12);
 		
 		System.out.println("Species : " +animalA1.getSpecies());
 		System.out.println("Teeth : " +animalA1.getTeeth());
 		System.out.println();
 
 		animalA1.setSpecies("Horse");
-		animalA1.setTeeth(24);
+		animalA1.setTeeth(12);
 		System.out.println("Updated Species: " +animalA1.getSpecies());
 		System.out.println("Updated Teeth: " + animalA1.getTeeth());
 		System.out.println();

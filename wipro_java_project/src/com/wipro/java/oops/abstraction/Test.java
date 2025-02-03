@@ -10,7 +10,7 @@ public class Test {
 		SKODA.carStartEngine();
 		SKODA.carBrake();
 		
-		System.out.println("..........................................");
+		System.out.println(".........................................");
 		
 		Car TESLA = new Tesla();
 		TESLA.carStartEngine();
