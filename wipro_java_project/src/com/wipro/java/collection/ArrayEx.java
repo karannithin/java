@@ -3,7 +3,7 @@ package com.wipro.java.collection;
 /**
  * 
  */
-public class Array {
+public class ArrayEx {
 	public static void main(String [] args) {
 		int arr[] = new int[5];// // Declaring and initializing an array
 		
