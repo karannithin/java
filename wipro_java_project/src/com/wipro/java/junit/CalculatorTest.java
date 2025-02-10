@@ -1,6 +1,6 @@
 package com.wipro.java.junit;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 // Test class for Calculator
 public class CalculatorTest {
